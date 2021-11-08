@@ -172,7 +172,7 @@
 
 .lead-container{
     background-color: rgb(252, 251, 251);
-    color: #1D3444;
+    color: #000000;
     display: flex;
     justify-content: space-around;
     padding-top: 60px;
@@ -205,10 +205,8 @@
 }
 /* ? Carrousel */
 .servicios{
-    margin: 40px;
+    margin: 0 auto;
     width: 770px;
-    margin-left: 360px;
-    margin-right: 140px;
 }
 @media screen and(max-width:450px){
     .servicios{
@@ -219,7 +217,7 @@
     }
 }
 .servicios h2{
-    color: #1D3444;
+    color: #000000;
     font-weight: 600;
     line-height: 56px;
     list-style: normal;
@@ -267,7 +265,7 @@
 }
 .card .contenido-card h3{
 	margin-bottom: 15px;
-	color: #1D3444;
+	color: #8333CF;
 }
 .card .contenido-card p{
 	line-height: 1.8;
@@ -346,7 +344,7 @@
   /* ? Mofys */
 
 .mofys {
-    background-color: rgb(168, 168, 168);
+    background-color: #000;
 }
 
 .mofys-container{
@@ -358,7 +356,7 @@
 }
 
 .mofys-text {
-    background-color: rgb(165, 165, 165);
+    background-color: #0eddb5;
 }
 
 .mofys-text h3 {
