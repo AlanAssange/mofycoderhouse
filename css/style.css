@@ -162,7 +162,7 @@
     }
     }
 .nav-header img{
-    height: 79px;
+    height: 69px;
 }
 /* ? Header */
 
@@ -193,6 +193,14 @@
 
 .lead-par {
     margin: 25px;
+    font-family: Poppins;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #8432D0;
 }
 
 .lead-fy {
@@ -207,6 +215,7 @@
 .servicios{
     margin: 0 auto;
     width: 770px;
+    margin-top: 65px;
 }
 @media screen and(max-width:450px){
     .servicios{
@@ -217,13 +226,22 @@
     }
 }
 .servicios h2{
-    color: #000000;
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+    font-style: normal;
     font-weight: 600;
     line-height: 56px;
-    list-style: normal;
-    letter-spacing: -0.2rem;
-    font-size: 46px;
+    letter-spacing: -0.03em;
+    text-align: center;
+
+}
+.servicios p{
     font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    color: #5B5B5B;
+    text-align: center;
+    font-size: 22px
+    ;
 }
 /* ? Cards*/
 .container-card{
@@ -261,7 +279,6 @@
 }
 .card .contenido-card{
 	padding: 15px;
-	text-align: center;
 }
 .card .contenido-card h3{
 	margin-bottom: 15px;
@@ -301,21 +318,31 @@
 /* ? Sanidad  */
 .sanidad{
     height: 600px;
-    background: #DBDBF7;
+    background:  #D8C1F9;
     margin-top: 90px;
 
 }
-.sanidad h4{
-    color: #1D3444;
+
+.sanidad h2{
+    font-family:'Poppins', sans-serif;
+    font-size: 45px;
+    font-style: normal;
     font-weight: 600;
     line-height: 56px;
-    list-style: normal;
-    letter-spacing: -0.2rem;
-    font-size: 29px;
-    font-family: 'Poppins', sans-serif;
-    display: flex;
-    justify-content: center;
-    padding-top: 40px;
+    letter-spacing: -0.03em;
+    text-align: center;
+    color: #8432D0;
+    padding-top: 20px;
+    }
+.sanidad p{
+font-family: 'Poppins', sans-serif;
+font-size: 26px;
+font-style: normal;
+font-weight: 600;
+line-height: 44px;
+letter-spacing: -0.03em;
+text-align: center;
+
 }
 /* ? Persona */
 .circular--portrait {
@@ -356,17 +383,18 @@
 }
 
 .mofys-text {
-    background-color: #0eddb5;
+    background-color: #00A19A;
 }
 
 .mofys-text h3 {
     color: white;
     font-weight: 600;
     margin: 25px;
-    margin-top: 170px;
+    margin-top: 90spx;
     margin-left: 100px;
     font-size: 6vh;
     padding: 25px;
+    margin-top: 70px;
 }
 
 
@@ -377,7 +405,7 @@
   /* ? -------------------------------------Footer------------------------------------------- */
   .pie-pagina{
     width: 100%;
-    background-color: #0a141d;
+    background-color: #000;
 }
 .pie-pagina .grupo-1{
     width: 100%;
@@ -391,17 +419,16 @@
 .pie-pagina .grupo-1 .box figure{
     width: 100%;
     height: 100%;
-    display: flex;
     justify-content: center;
     align-items: center;
 }
 .pie-pagina .grupo-1 .box figure img{
-    width: 250px;
+    width: 230px;
 }
 .pie-pagina .grupo-1 .box h2{
     color: #fff;
     margin-bottom: 25px;
-    font-size: 20px;
+    font-size: 26px;
 }
 .pie-pagina .grupo-1 .box a{
     color: #efefef;
@@ -413,7 +440,9 @@
     color: #8333CF;
 
 }
-
+.red-social{
+    display: flex;
+}
 .pie-pagina .grupo-1 .red-social a{
     display: inline-block;
     text-decoration: none;
@@ -430,7 +459,7 @@
     color: #8333CF;
 }
 .pie-pagina .grupo-2{
-    background-color: #0a1a2a;
+    background-color: #743ACE;
     padding: 15px 10px;
     text-align: center;
     color: #fff;
@@ -445,6 +474,40 @@
         grid-gap:30px;
         padding: 35px 0px;
     }
+}
+.box figure a h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 442px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 35px;
+    text-align: left;
+    margin-top: 20px;
+}
+.box{
+    margin-top: 30px;
+}
+.columna1{
+    height: 100% !important;
+    margin-top: 0px;
+}
+.columna2{
+    margin-top: 140px;
+    margin-left: 40px;
+    font-size: 19px;
+}
+.columna2 h4{
+    color: #fff;
+    font-weight: 600;
+}
+.columna3{
+    margin-top: 100px !important;
+    margin-left: 40px;
+    font-size: 19px;
+}
+.columna3 h4{
+    color: #fff;
+    font-weight: 600;
 }
 
 /* ? Testimonios */
@@ -542,8 +605,125 @@ figure.snip1192 {
     font-weight: 600;
     font-size: 38px;
     line-height: 56px;
+    text-align: center;
+}
+.testimonios p{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0em;
+    color: #5B5B5B;
+
 }
 /* ?nav */
 .links li a {
     font-size: 19px;
+}
+/* ? Maps  */
+.containerSanidad {
+    display: grid;
+    grid-template-columns: 1.2fr 0.8fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "Text Iframe";
+    width: 100%;
+    height: 700px;
+    margin-top: 60px;
+  }
+  .Text {
+    display: grid;
+    grid-template-columns: 0.5fr 1.9fr 0.6fr;
+    grid-template-rows: 0.35fr 0.6fr 0fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      ". Title ."
+      ". Info ."
+      ". Datos .";
+    grid-area: Text;
+    margin-top: 60px;
+    margin-left: 120px;
+  }
+  .Info p{
+    font-size: 21px;
+    font-style: normal;
+    text-align: left;
+    color: #8432D0;
+    letter-spacing: -3%;
+    
+  }
+  .Title h2{
+      font-size: 44px;
+      font-weight: 900;
+      color: #0A1A2A;
+  }
+  .Title { grid-area: Title; }
+  .Datos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 0.4fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "number number2"
+      "numbertitle numbertitle2"
+      "numbertext numbertext2";
+    grid-area: Datos;
+  }
+  .number { grid-area: number; }
+  .number2 { grid-area: number2; }
+  .numbertitle { grid-area: numbertitle; }
+  .numbertitle2 { grid-area: numbertitle2; }
+  .numbertext { grid-area: numbertext; }
+  .numbertext2 { grid-area: numbertext2; }
+  .Info { grid-area: Info; }
+  .Iframe {
+    display: grid;
+    grid-template-columns: 0.5fr 1.9fr 0.6fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      ". Img ."
+      ". Img ."
+      ". Img .";
+    grid-area: Iframe;
+    margin-top: 60px;
+  }
+  .Img { grid-area: Img; }
+  .number2{
+      font-size: 70px;
+      color: #8333CF;
+      font-weight: 700;
+  }
+  .number{
+    font-size: 70px;
+    color: #8333CF;
+    font-weight: 700;
+    height: 20px;
+}
+.numbertitle {
+    font-size: 25px;
+    font-weight: 600;
+    color: #0A1A2A;
+}
+.numbertitle2 {
+    font-size: 25px;
+    font-weight: 600;
+    color: #0A1A2A;
+}
+.numbertext{
+    margin-right: 5px;
+}
+.maps {
+    width: 100%;
+    padding-right: 180px;
+}
+.img iframe{
+    height: 900px;
 }
