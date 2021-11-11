@@ -36,7 +36,7 @@
     }
 
     .links li a {
-    color: black;
+    color: #000;
     transition: color 0.4s ease-in-out;
     }
 
@@ -62,7 +62,7 @@
     }
 
     .fab {
-    color: black;
+    color: #000;
     }
 
     .fab:hover {
@@ -109,7 +109,7 @@
         top: 8vh;
         left: -100%;
         transition: transform 1s ease-in-out;
-        background-color: black;
+        background-color: #000;
         overflow: hidden;
     }
 
@@ -165,51 +165,30 @@
     height: 69px;
 }
 /* ? Header */
-
-.leadPic {
-    background-color: rgb(252, 251, 251);
+.lead-fy {
+    color: #8333CF;
 }
-
 .lead-container{
-    background-color: rgb(252, 251, 251);
-    color: #000000;
-    display: flex;
-    justify-content: space-around;
-    padding-top: 60px;
-    padding-right: 55px;
-    margin-left: 340px;
-    margin-right: 140px;
-    padding-bottom: 120px;
+    position: relative;
+}
+
+.leadimg {
+    margin: 50px;
+    margin-left: 355px;
+    max-width: 1200px;
+
 
 }
 
-.lead-container h1 {
+.leadtext {
+    position: absolute;
     line-height: 1;
     max-width: 50%;
     font-size: 50px;
     font-weight: 600;
     margin: 30px;
-}
-
-.lead-par {
-    margin: 25px;
-    font-family: Poppins;
-    font-size: 17px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 30px;
-    letter-spacing: 0em;
-    text-align: left;
-    color: #8432D0;
-}
-
-.lead-fy {
-    color: #8333CF;
-}
-
-.emptyImage {
-    width: 55vh;
-    border-radius: 15px;
+    margin-left: 380px;
+    margin-top: 175px;
 }
 /* ? Carrousel */
 .servicios{
@@ -334,7 +313,7 @@
     color: #8432D0;
     padding-top: 20px;
     }
-.sanidad p{
+.sanidad-p{
 font-family: 'Poppins', sans-serif;
 font-size: 26px;
 font-style: normal;
@@ -368,9 +347,54 @@ text-align: center;
       letter-spacing: 0rem;
   }
 
+  .caras-text {
+      position: absolute;
+      display: flex;
+      justify-content: space-around;
+      text-align: center;
+      padding-left: 365px;
+      padding-right: 365px;
+  }
+
+.caras-h {
+    margin-top: 5px;
+    font-size: 21px;
+    color: #8333CF;
+    font-weight: 600;
+}
+
+.caras-p {
+    font-size: 15px;
+    font-weight: 600;
+    margin: 15px;
+}
+/* ? Persona */
+.circular--portrait {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+    display: flex;
+  }
+  
+  .circular--portrait img {
+    width: 100%;
+    height: auto;
+  }
+  .caras{
+      display: flex;
+      margin: auto;
+      justify-content: space-evenly;
+      margin-top: 55px;
+  }
+  .sanidad h4{
+      letter-spacing: 0rem;
+  }
+
   /* ? Mofys */
 
-.mofys {
+  .mofys {
     background-color: #000;
 }
 
@@ -387,7 +411,7 @@ text-align: center;
 }
 
 .mofys-text h3 {
-    color: white;
+    color: #fff;
     font-weight: 500;
     margin: 25px;
     margin-top: 90spx;
@@ -396,6 +420,7 @@ text-align: center;
     padding: 25px;
     margin-top: 50px;
 }
+
 
 
 .mofys-image {
@@ -738,4 +763,28 @@ figure.snip1192 {
 }
 .img iframe{
     height: 900px;
+}
+/* Boton wpp */
+.whatsapp {
+    position:fixed;
+    width:60px;
+    height:60px;
+    bottom:40px;
+    right:40px;
+    background-color:#25d366;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    font-size:30px;
+    z-index:100;
+  }
+  
+  .whatsapp-icon {
+    margin-top:13px;
+  }
+  .whatsapp-icon:hover{
+      color: #000;
+  }
+  .whatsapp:hover{
+    color: #000;
 }
