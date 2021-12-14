@@ -304,6 +304,7 @@ main {
 .card img {
   width: 100%;
   height: 210px;
+  background-size: cover;
 }
 .card .contenido-card {
   padding: 15px;
