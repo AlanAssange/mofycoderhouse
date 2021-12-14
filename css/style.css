@@ -566,7 +566,8 @@ main {
   margin-top: 20px;
 }
 .box {
-  margin-top: 30px;
+  margin-top: 10px;
+  margin-bottom: 40px;
 }
 .columna1 {
   height: 100% !important;
@@ -655,7 +656,7 @@ main {
 }
 
 .testTitle {
-  margin-top: 40px;
+  margin-top: 30px;
   text-align: center;
 }
 
