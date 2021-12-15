@@ -222,7 +222,11 @@ main {
 
   #mofystext {
     display: block;
-    font-size: 15px;
+    font-size: 4vh;
+  }
+
+  #mofystext h3 {
+    font-size: 5vh;
   }
 
   #mofygr {
