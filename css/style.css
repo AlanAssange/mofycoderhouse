@@ -236,6 +236,16 @@ main {
     margin-left: 30px;
   }
 
+  .paragraph {
+    display: none;
+  }
+
+  #paragraph-r {
+    display: block;
+    font-size: 18px;
+    padding: 20px;
+  }
+
   #carast-responsive {
     display: flex;
     flex-direction: column;
