@@ -141,9 +141,31 @@ main {
   .mofys-image {
     max-width: 65.3vh;
   }
-  .lead-container {
-    flex-direction: column;
+  .secondtext {
     display: none;
+  }
+
+  .leadimg {
+    display: none;
+  }
+
+  #leadimgres {
+    display: block;
+    margin: 0;
+    width: 550px;
+    margin-top: 25px;
+  }
+
+  .leadtext {
+    display: none;
+  }
+
+  #leadresponsive {
+    display: block;
+    margin: 0;
+    font-size: 30px;
+    margin-top: 60px;
+    margin-left: 15px;
   }
 
   #responsive-cont {
