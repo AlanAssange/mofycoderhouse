@@ -134,8 +134,6 @@ main {
 
   .mofys-container {
     flex-direction: column;
-    width: 200px;
-    padding-bottom: 0px;
   }
 
   .mofys-image {
@@ -166,6 +164,10 @@ main {
     font-size: 30px;
     margin-top: 60px;
     margin-left: 15px;
+  }
+
+  #boxres {
+    display: none;
   }
 
   #responsive-cont {
@@ -200,6 +202,27 @@ main {
 
   #mofys-res {
     display: none;
+  }
+
+  #footeres {
+    display: none;
+  }
+
+  .mofys-text {
+    display: none;
+  }
+
+  .mofys {
+    display: none;
+  }
+
+  #mofyshidd {
+    display: block;
+  }
+
+  #mofystext {
+    display: block;
+    font-size: 15px;
   }
 
   #mofygr {
