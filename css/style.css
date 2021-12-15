@@ -226,7 +226,8 @@ main {
   }
 
   #mofystext h3 {
-    font-size: 5vh;
+    font-size: 4vh;
+    font-weight: 600;
   }
 
   #mofygr {
