@@ -150,7 +150,7 @@ main {
   #leadimgres {
     display: block;
     margin: 0;
-    width: 550px;
+    width: 410px;
     margin-top: 25px;
   }
 
@@ -161,8 +161,8 @@ main {
   #leadresponsive {
     display: block;
     margin: 0;
-    font-size: 30px;
-    margin-top: 60px;
+    font-size: 25px;
+    margin-top: 30px;
     margin-left: 15px;
   }
 
