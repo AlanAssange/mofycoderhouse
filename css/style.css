@@ -88,6 +88,20 @@ main {
 }
 
 @media (max-width: 700px) {
+  #mofy-navbar {
+    align-items: center;
+    display: flex;
+  }
+
+  #fabars {
+    margin-top: 20px;
+  }
+
+  #mofy-navbar img {
+    margin-right: 200px;
+    width: 200px;
+  }
+
   #comunidad {
     height: 600px;
   }
