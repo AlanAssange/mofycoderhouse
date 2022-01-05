@@ -120,6 +120,7 @@ main {
 
   #protocolo {
     display: block;
+    height: 1000px;
   }
 
   #map {
@@ -233,8 +234,13 @@ main {
     flex-direction: column;
   }
   #caras-responsive {
-    display: none;
-    flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+
+  #carasresp {
+    margin: 20px;
   }
 
   #mofys-res {
@@ -533,7 +539,6 @@ main {
 .circular--portrait {
   position: relative;
   width: 200px;
-  height: 200px;
   overflow: hidden;
   border-radius: 50%;
   display: flex;
