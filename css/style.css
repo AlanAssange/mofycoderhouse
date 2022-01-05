@@ -88,6 +88,22 @@ main {
 }
 
 @media (max-width: 700px) {
+  #datosres {
+    display: none;
+  }
+  #text-res {
+    margin-top: 0px;
+    margin-left: 35px;
+  }
+
+  #protocolo {
+    display: none;
+  }
+
+  #map {
+    display: none;
+  }
+
   .nav-toggle {
     display: block;
     position: absolute;
@@ -220,12 +236,15 @@ main {
   }
 
   #mofystext {
+    width: 400px;
     display: block;
     font-size: 4vh;
   }
 
   #mofystext h3 {
-    font-size: 4vh;
+    align-items: center;
+    margin-left: 25px;
+    font-size: 4.5vh;
     font-weight: 600;
   }
 
@@ -446,9 +465,8 @@ main {
 }
 /* ? Persona */
 .circular--portrait {
-  position: relative;
-  width: 200px;
-  height: 200px;
+  width: 100%;
+  height: 100%;
   overflow: hidden;
   border-radius: 50%;
   display: flex;
