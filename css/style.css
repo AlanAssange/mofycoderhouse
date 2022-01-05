@@ -88,6 +88,10 @@ main {
 }
 
 @media (max-width: 700px) {
+  #wrapres {
+    width: 100%;
+  }
+
   #mofy-navbar {
     align-items: center;
     display: flex;
