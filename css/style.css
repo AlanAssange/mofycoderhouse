@@ -101,7 +101,7 @@ main {
   }
 
   #protocolo {
-    display: none;
+    display: block;
   }
 
   #map {
@@ -215,7 +215,7 @@ main {
     flex-direction: column;
   }
   #caras-responsive {
-    display: flex;
+    display: none;
     flex-direction: column;
   }
 
@@ -269,7 +269,7 @@ main {
   }
 
   #carast-responsive {
-    display: flex;
+    display: none;
     flex-direction: column;
   }
 
