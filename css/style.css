@@ -88,6 +88,9 @@ main {
 }
 
 @media (max-width: 700px) {
+  #responsiveinventado {
+    display: block;
+  }
   #wrapres {
     width: 100%;
   }
@@ -120,7 +123,7 @@ main {
 
   #protocolo {
     display: block;
-    height: 1000px;
+    height: 800px;
   }
 
   #map {
@@ -239,8 +242,18 @@ main {
     flex-direction: row;
   }
 
+  #carastext-responsive {
+  }
+
+  #carast-responsive {
+    display: none;
+    flex-direction: row;
+    margin-right: 500px;
+  }
+
   #carasresp {
-    margin: 20px;
+    width: 150px;
+    margin: 10px;
   }
 
   #mofys-res {
@@ -290,11 +303,6 @@ main {
     display: block;
     font-size: 18px;
     padding: 20px;
-  }
-
-  #carast-responsive {
-    display: none;
-    flex-direction: column;
   }
 
   #der-responsive {
@@ -939,4 +947,8 @@ main {
 }
 .whatsapp:hover {
   color: #000;
+}
+
+#responsiveinventado {
+  display: none;
 }
