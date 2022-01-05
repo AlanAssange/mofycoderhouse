@@ -142,6 +142,10 @@ main {
     transition: transform 0.6s ease-in-out;
   }
 
+  #footerres {
+    display: none;
+  }
+
   #navLinks {
     position: fixed;
     background: #ffffff;
@@ -228,6 +232,11 @@ main {
     font-size: 25px;
   }
 
+  #fasocial {
+    font-size: 35px;
+    color: #8333cf;
+  }
+
   #responsive-serv p {
     font-size: 19px;
   }
@@ -240,9 +249,6 @@ main {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-  }
-
-  #carastext-responsive {
   }
 
   #carast-responsive {
@@ -310,7 +316,6 @@ main {
   }
 
   #mofy-responsive {
-    margin-left: 50px;
   }
 
   #snip-responsive {
@@ -650,7 +655,6 @@ main {
   line-height: 45px;
   color: #fff;
   margin-right: 10px;
-  background-color: #0d2033;
   text-align: center;
   transition: all 300ms ease;
 }
@@ -680,7 +684,7 @@ main {
 }
 @media screen and (max-width: 800px) {
   .pie-pagina .grupo-1 {
-    width: 90%;
+    width: 50%;
     grid-template-columns: repeat(1, 1fr);
     grid-gap: 30px;
     padding: 35px 0px;
