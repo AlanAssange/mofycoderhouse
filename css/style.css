@@ -122,7 +122,7 @@ main {
 
   #protocolo {
     display: block;
-    height: 1160px;
+    height: 1300px;
   }
 
   #map {
@@ -273,6 +273,11 @@ main {
     justify-content: center;
     width: 140px;
     margin: 10px;
+  }
+
+  #carasresp img {
+    width: 150px;
+    height: 150px;
   }
 
   .caras-title {
@@ -527,16 +532,15 @@ main {
 }
 /* ? Persona */
 .circular--portrait {
-  width: 100%;
   margin: 15px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
 }
 
 .circular--portrait img {
-  width: 100%;
+  width: 200px;
+  height: 195px;
 }
 .caras {
   display: flex;
@@ -599,7 +603,7 @@ main {
 
 .mofys-text h3 {
   color: #fff;
-  font-weight: 500;
+  font-weight: 600;
   margin: 25px;
   margin-top: 90spx;
   margin-left: 100px;
@@ -963,8 +967,9 @@ main {
 }
 
 .caras-title {
-  font-size: 21px;
+  font-size: 20px;
   text-align: center;
+  margin-top: 25px;
   color: #8333cf;
   font-weight: 600;
 }
