@@ -110,9 +110,26 @@ main {
 
   #comunidad {
     height: 600px;
+    margin-left: 45px;
+    margin-top: 30px;
+    grid-auto-rows: 0fr;
   }
+
+  #numres {
+    font-size: 45px;
+  }
+
+  #titleresp {
+    font-size: 17px;
+  }
+
+  #escribenosres {
+    font-size: 19px;
+  }
+
   #datosres {
     width: 340px;
+    grid-template-columns: none;
   }
   #text-res {
     margin-top: 0px;
@@ -254,6 +271,7 @@ main {
     display: block !important;
     font-size: 15px;
     font-weight: 600;
+    text-align: center;
   }
 
   #carast-responsive {
@@ -822,28 +840,99 @@ main {
 /* ? Maps  */
 .containerSanidad {
   display: grid;
-  grid-template-columns: 1.2fr 0.8fr;
-  grid-template-rows: 1fr;
+  grid-template-columns: 0.5fr 0.8fr;
+  grid-template-rows: 0.5fr 0.7fr 1.3fr;
+  grid-auto-columns: 1fr;
+  grid-auto-rows: 1fr;
   gap: 0px 0px;
   grid-auto-flow: row;
-  grid-template-areas: "Text Iframe";
   width: 100%;
-  height: 700px;
+  height: 720px;
   margin-top: 60px;
+  margin-left: 400px;
 }
+
+.Iframe {
+  grid-area: 1 / 2 / 4 / 3;
+  margin-left: 75px;
+}
+
 .Text {
+  grid-area: 1 / 1 / 4 / 2;
+}
+
+.Title {
+  grid-area: 1 / 1 / 2 / 2;
+}
+
+.Info {
+  grid-area: 2 / 1 / 3 / 2;
+}
+
+.Datos {
   display: grid;
-  grid-template-columns: 0.5fr 1.9fr 0.6fr;
-  grid-template-rows: 0.35fr 0.6fr 0fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 0.1fr 0.2fr 0.6fr;
   gap: 0px 0px;
   grid-auto-flow: row;
-  grid-template-areas:
-    ". Title ."
-    ". Info ."
-    ". Datos .";
-  grid-area: Text;
-  margin-top: 60px;
-  margin-left: 120px;
+  grid-area: 3 / 1 / 4 / 2;
+}
+
+.number {
+  grid-area: 1 / 1 / 4 / 2;
+}
+
+.number2 {
+  grid-area: 1 / 2 / 4 / 3;
+}
+
+.numberTitle {
+  grid-area: 2 / 1 / 3 / 2;
+  font-size: 25px;
+  font-weight: 600;
+  color: #0a1a2a;
+}
+
+.numberTitle2 {
+  grid-area: 2 / 2 / 3 / 3;
+  font-size: 25px;
+  font-weight: 600;
+  color: #0a1a2a;
+}
+
+.numberText {
+  grid-area: 3 / 1 / 4 / 2;
+}
+
+.numberText2 {
+  grid-area: 3 / 2 / 4 / 3;
+}
+
+.number3 {
+  grid-area: 1 / 3 / 2 / 4;
+}
+
+.numberTitle3 {
+  grid-area: 2 / 3 / 3 / 4;
+  font-size: 25px;
+  font-weight: 600;
+  color: #0a1a2a;
+}
+
+.numberText3 {
+  grid-area: 3 / 3 / 4 / 4;
+}
+
+.img iframe {
+  height: 900px;
+}
+.Title h2 {
+  font-size: 44px;
+  font-weight: 900;
+  color: #0a1a2a;
+}
+.text {
+  margin-left: 250px;
 }
 .Info p {
   font-size: 21px;
@@ -852,62 +941,10 @@ main {
   color: #8432d0;
   letter-spacing: -3%;
 }
-.Title h2 {
-  font-size: 44px;
-  font-weight: 900;
-  color: #0a1a2a;
-}
-.Title {
-  grid-area: Title;
-}
-.Datos {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 0.4fr 1fr;
-  gap: 0px 0px;
-  grid-auto-flow: row;
-  grid-template-areas:
-    "number number2"
-    "numbertitle numbertitle2"
-    "numbertext numbertext2";
-  grid-area: Datos;
-}
-.number {
-  grid-area: number;
-}
-.number2 {
-  grid-area: number2;
-}
-.numbertitle {
-  grid-area: numbertitle;
-}
-.numbertitle2 {
-  grid-area: numbertitle2;
-}
-.numbertext {
-  grid-area: numbertext;
-}
-.numbertext2 {
-  grid-area: numbertext2;
-}
-.Info {
-  grid-area: Info;
-}
-.Iframe {
-  display: grid;
-  grid-template-columns: 0.5fr 1.9fr 0.6fr;
-  grid-template-rows: 1fr 1fr 1fr;
-  gap: 0px 0px;
-  grid-auto-flow: row;
-  grid-template-areas:
-    ". Img ."
-    ". Img ."
-    ". Img .";
-  grid-area: Iframe;
-  margin-top: 60px;
-}
-.Img {
-  grid-area: Img;
+.number3 {
+  font-size: 70px;
+  color: #8333cf;
+  font-weight: 700;
 }
 .number2 {
   font-size: 70px;
@@ -925,11 +962,7 @@ main {
   font-weight: 600;
   color: #0a1a2a;
 }
-.numbertitle2 {
-  font-size: 25px;
-  font-weight: 600;
-  color: #0a1a2a;
-}
+
 .numbertext {
   margin-right: 5px;
 }
@@ -937,8 +970,9 @@ main {
   width: 100%;
   padding-right: 180px;
 }
-.img iframe {
-  height: 900px;
+
+.text {
+  margin-left: 250px;
 }
 /* Boton wpp */
 .whatsapp {
